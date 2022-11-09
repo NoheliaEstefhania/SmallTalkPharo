@@ -8,16 +8,8 @@ Class {
 }
 
 { #category : #accessing }
-Counter >> count [
-| c |
-c := Counter new count: 7.
-c count
->>> 7	
-]
-
-{ #category : #initialization }
-Counter >> initialize [ 	
-	count := 0.
+Counter >> count [ 
+	^ 	count 			
 ]
 
 { #category : #accessing }
