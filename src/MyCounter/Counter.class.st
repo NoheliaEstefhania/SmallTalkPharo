@@ -19,3 +19,17 @@ Class {
 Counter >> count [ 
 	^ 	count 			
 ]
+
+{ #category : #accessing }
+Counter >> increment [ 
+	count := count - 1
+]
+
+{ #category : #initialization }
+Counter >> initialize [ 
+
+	count := 0.
+	
+
+
+]
