@@ -1,3 +1,11 @@
+"
+`Counter` is a simple concrete class which supports incrementing and decrementing. 
+Its API is
+- `decrement` and `increment`
+- `count` 
+Its creation message is `startAt:`
+
+"
 Class {
 	#name : #Counter,
 	#superclass : #Object,
@@ -10,13 +18,4 @@ Class {
 { #category : #accessing }
 Counter >> count [ 
 	^ 	count 			
-]
-
-{ #category : #accessing }
-Counter >> testCountIsSetAndRead [
-| c |
-c := Counter new.
-c count: 7.
-self assert: c count equals:7
-			
 ]
